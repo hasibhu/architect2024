@@ -1,0 +1,100 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.buttonPrimary{
+    border-radius: 5px;
+    color: #fff;
+    background: #FF900E;
+    width: 160px;
+    height: 44px;
+    font-size: 20px;
+    border: none;
+    
+}
+/* header styles */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+nav li{        /* ul li is also possible instead of "nav li" */
+    list-style: none;
+    margin-right: 15px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+ a{             /* "nav li a" is also possible  */
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/* Banner styles */
+
+.bannerContent{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.bannerTitle{
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    
+}
+
+.bannerDescription{
+    font-family: Work Sans;
+    font-size: 15px;
+    color: #727272;
+    font-weight: 400;
+
+}
+
+.banner img{
+    max-width: 100%;
+    padding-top: 30px;
+}
+
+
+/* Responsive styles */
+
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 10px ;
+    }
+    nav{
+        flex-direction: column; 
+        text-align: center;
+            
+    }
+}
+
+
+
+
+
+
