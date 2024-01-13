@@ -6,6 +6,11 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .buttonPrimary{
     border-radius: 5px;
     color: #fff;
@@ -21,6 +26,8 @@
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 200px;
+   
+    margin: 0 auto;
 }
 nav{
     display: flex;
@@ -49,7 +56,10 @@ nav li{        /* ul li is also possible instead of "nav li" */
 }
 
 /* Banner styles */
-
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .bannerContent{
     max-width: 800px;
     text-align: center;
@@ -78,6 +88,34 @@ nav li{        /* ul li is also possible instead of "nav li" */
     padding-top: 30px;
 }
 
+/* Features related styles */
+
+.teamsContainer{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* gap: 60px; */
+}
+
+.teamsImages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.teamsContent{
+
+    padding-left: 70px;
+    padding-right: 70px;
+    /* justify-content: center;
+    align-items: center;
+     */
+}
+
+.hide{
+    display: none;
+}
+
 
 /* Responsive styles */
 
@@ -92,6 +130,8 @@ nav li{        /* ul li is also possible instead of "nav li" */
             
     }
 }
+
+
 
 
 
